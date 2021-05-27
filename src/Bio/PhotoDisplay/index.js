@@ -36,12 +36,12 @@ export default function PhotoDisplay({ ...props }) {
 
     return (
 
-        <Grid centered>
-            <Grid.Column width={12} textAlign="center" className="no-bottom-padding">
-                <Image circular className="main-image" centered src={getSelectedSRC()} />
+        <Grid centered verticalAlign="middle">
+            <Grid.Column computer = {10} tablet = {10} mobile = {16} textAlign="center" className="no-bottom-padding no-top-padding">
+                <Image circular className="main-image" centered src={process.env.PUBLIC_URL + getSelectedSRC()} />
             </Grid.Column>
 
-            <Grid.Column width={16} textAlign="center">
+            <Grid.Column computer = {16} tablet = {8} mobile = {10} textAlign="center">
                 <Image.Group>
                     {getAllSRCs().map((src, index) => {
                         if (index !== bioState.selectedIndex) {
@@ -50,9 +50,8 @@ export default function PhotoDisplay({ ...props }) {
                                     circular
                                     verticalAlign="middle"
                                     className="selectable-thumbnail"
-                                    size="tiny"
                                     key={index}
-                                    src={src}
+                                    src={process.env.PUBLIC_URL + src}
                                     onClick={() => selectPhoto(index)}
                                 />
                             )

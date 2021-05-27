@@ -15,17 +15,13 @@ export default function Thumbnail({ imageSRC, index, name, ...props }) {
         projectDispatch({ type: SELECT_PROJECT, selectedIndex: index })
     }
 
+
     return (
         <div className={"thumbnail-container " + props.className} onClick={selectProject}>
         
               <Header as = "h3" className = "thumbnail-header roboto">{name}</Header>
             
-            
-            
-              <Image src={imageSRC} centered fluid />  
-            
-            
-            
+              <Image src={process.env.PUBLIC_URL + imageSRC} centered fluid />  
 
         </div>
     )

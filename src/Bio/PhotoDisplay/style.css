@@ -3,6 +3,10 @@
     box-shadow: 0px 0px 10px 5px rgb(112, 183, 207) !important;
 }
 
+.selectable-thumbnail {
+    width: 20% !important;
+}
+
 .main-image {
-    max-height: 300px !important;
+    /* max-height: 300px !important; */
 }

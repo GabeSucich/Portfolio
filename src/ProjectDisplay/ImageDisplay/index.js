@@ -59,8 +59,8 @@ export default function ImageDisplay({imageInfo, ...props}) {
         <Grid.Column computer = "12" tablet = "14" mobile = "16" className="image-container" textAlign="center">
 
             <LiveImage 
-                liveSRC = {imageInfo[displayedIndex].liveSRC} 
-                staticSRC = {imageInfo[displayedIndex].staticSRC} 
+                liveSRC = {process.env.PUBLIC_URL + imageInfo[displayedIndex].liveSRC} 
+                staticSRC = {process.env.PUBLIC_URL + imageInfo[displayedIndex].staticSRC} 
                 className = "live-image" 
                 NextButton = {NextButton }
                 PrevButton = {PrevButton}

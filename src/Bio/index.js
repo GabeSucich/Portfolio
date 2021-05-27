@@ -15,14 +15,14 @@ export default function Bio({...props}) {
         
         <Container fluid style = {{marginTop: "5%"}}>
             <Grid centered verticalAlign="middle">
-                <Grid.Column computer = {10} tablet = {10} mobile = {16} textAlign="center">
+                <Grid.Column computer = {10} tablet = {16} mobile = {16} textAlign="center">
                     <Section1/>
                     <Divider hidden/>
                     <Section2/>
                     <Divider hidden />
                     <Section3 />
                 </Grid.Column>
-                <Grid.Column computer = {6} tablet = {6} mobile = {16} textAlign="center">
+                <Grid.Column computer = {6} tablet = {16} mobile = {16} textAlign="center">
                     <PhotoDisplay /> 
                 </Grid.Column>
             </Grid>

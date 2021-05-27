@@ -5,6 +5,10 @@
     overflow-x: auto !important;
     overflow-y: hidden !important;
     border-radius: 5px !important;
+    border-left: 10px !important;
+    border-right: 10px !important;
+    border-style: solid !important;
+    border-color: rgb(27, 29, 30) !important;
     margin-top: 10px !important;
     padding: 10px !important;
     scroll-margin-block-start: 90px !important;

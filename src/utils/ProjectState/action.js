@@ -1,0 +1,4 @@
+export const NEXT_PROJECT = "NEXT_PROJECT"
+export const PREV_PROJECT = "PREV_PROJECT"
+export const SELECT_PROJECT = "SELECT_PROJECT"
+

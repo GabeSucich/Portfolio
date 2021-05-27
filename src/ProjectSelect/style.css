@@ -1,0 +1,20 @@
+.select-background {
+    padding: 10px !important;
+    white-space: nowrap !important;
+    height: fit-content !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+    padding: 10px !important;
+    scroll-margin-block-start: 90px !important;
+    text-align: center !important;
+}
+
+.selected {
+    box-shadow: 0px 0px 30px 5px lightblue !important;
+}
+
+.not-selected {
+    /* box-shadow: 0px 0px 30px 10px white !important; */
+}

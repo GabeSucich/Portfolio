@@ -1,0 +1,17 @@
+.thumbnail-container {
+    height: fit-content!important;
+    width: 300px !important;
+    display: inline-block !important;
+    background-color: lightgray !important;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+    cursor: pointer !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    margin-top: 0 !important;
+}
+
+.thumbnail-header {
+    margin-bottom: 3px !important;
+}
+

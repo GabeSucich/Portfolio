@@ -1,0 +1,9 @@
+.image-container {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    height: fit-content !important;
+}
+
+.live-image {
+    margin-bottom: 10px !important;
+}

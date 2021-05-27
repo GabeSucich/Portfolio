@@ -1,0 +1,59 @@
+
+
+.white {
+  color: white !important;
+}
+
+/* General classes for margins and padding */
+
+.no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
+.no-top-margin {
+  margin-top: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-top-padding {
+  padding-top: 0 !important;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+/* Classes which handle changing the display based on screen size */
+
+.hide-on-small {
+  display: initial !important;
+}
+
+.show-on-small {
+  display: none !important;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-small {
+    display: none !important;
+  }
+
+  .show-on-small {
+    display: initial !important;
+  }
+}

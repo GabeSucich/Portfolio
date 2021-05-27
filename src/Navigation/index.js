@@ -26,7 +26,7 @@ export default function Navigation({ ...props }) {
     }
 
     const openResume = () => {
-        window.open("/Resume.pdf")
+        window.open(process.env.PUBLIC_URL + "/Resume.pdf")
     }
 
     return (

@@ -1,6 +1,6 @@
 import 'semantic-ui-css/semantic.min.css'
 
-import { BrowserRouter as Router, Switch, Redirect, Route } from "react-router-dom"
+import { BrowserRouter as Router, HashRouter, Switch, Redirect, Route } from "react-router-dom"
 
 import { Container } from "semantic-ui-react"
 
@@ -17,10 +17,12 @@ function App() {
   return (
     <ProjectProvider>
       <BioProvider>
-        <Router>
+        <HashRouter>
           <Navigation />
           <Container>
-            <Switch>
+              <Switch>
+
+              
               <Route exact path="/about">
                 <Bio />
               </Route>
@@ -33,7 +35,7 @@ function App() {
               </Route>
             </Switch>
           </Container>
-        </Router>
+        </HashRouter>
       </BioProvider>
     </ProjectProvider>
   );

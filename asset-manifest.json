@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61933bb4.chunk.css",
+    "main.js": "/static/js/main.40d86e21.chunk.js",
+    "main.js.map": "/static/js/main.40d86e21.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.54af3646.js",
+    "runtime-main.js.map": "/static/js/runtime-main.54af3646.js.map",
+    "static/css/2.d97c81c1.chunk.css": "/static/css/2.d97c81c1.chunk.css",
+    "static/js/2.28659041.chunk.js": "/static/js/2.28659041.chunk.js",
+    "static/js/2.28659041.chunk.js.map": "/static/js/2.28659041.chunk.js.map",
+    "static/js/3.53e94308.chunk.js": "/static/js/3.53e94308.chunk.js",
+    "static/js/3.53e94308.chunk.js.map": "/static/js/3.53e94308.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d97c81c1.chunk.css.map": "/static/css/2.d97c81c1.chunk.css.map",
+    "static/css/main.61933bb4.chunk.css.map": "/static/css/main.61933bb4.chunk.css.map",
+    "static/js/2.28659041.chunk.js.LICENSE.txt": "/static/js/2.28659041.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54af3646.js",
+    "static/css/2.d97c81c1.chunk.css",
+    "static/js/2.28659041.chunk.js",
+    "static/css/main.61933bb4.chunk.css",
+    "static/js/main.40d86e21.chunk.js"
+  ]
+}

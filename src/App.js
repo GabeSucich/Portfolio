@@ -20,9 +20,7 @@ function App() {
         <HashRouter>
           <Navigation />
           <Container>
-              <Switch>
-
-              
+            <Switch>
               <Route exact path="/about">
                 <Bio />
               </Route>

@@ -37,7 +37,7 @@ export default function PhotoDisplay({ ...props }) {
     return (
 
         <Grid centered verticalAlign="middle">
-            <Grid.Column computer = {10} tablet = {10} mobile = {16} textAlign="center" className="no-bottom-padding no-top-padding">
+            <Grid.Column computer = {10} tablet = {10} mobile = {16} textAlign="center" className="no-bottom-padding">
                 <Image circular className="main-image" centered src={process.env.PUBLIC_URL + getSelectedSRC()} />
             </Grid.Column>
 

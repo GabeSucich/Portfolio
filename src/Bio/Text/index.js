@@ -15,7 +15,7 @@ export function Section2({ ...props }) {
     return (
         <p className="roboto">
             My strong interest in math lends itself to an interest in data science and machine learning in the realm of computer science. I also have cultivated an inclination for web development, as I think there is an art to constructing elegant, integrated, scalable full-stack applications. Though I had a late introduction to coding, my previous experience at Berkeley National Laboratory and as an assistant math instructor for the school has primed me to partake in a collaborative, constructive, and highly intellectual work environment. From my full stack bootcamp and computer science coursework, I have a strong foundation in both the theory and practical applications of coding. 
-            And, most importantly and as can be seen from my <a href = {process.env.PUBLIC_URL + "/Transcript.pdf"} target="_blank">academic record</a>, I excelled in one of the country’s most highly esteemed undergraduate chemistry programs, demonstrating that I can learn and integrate new ideas at a uniquely high level.
+            And, most importantly and as can be seen from my <a href = {process.env.PUBLIC_URL + "/Transcript.pdf"}>academic record</a>, I excelled in one of the country’s most highly esteemed undergraduate chemistry programs, demonstrating that I can learn and integrate new ideas at a uniquely high level.
         </p>
     )
 }

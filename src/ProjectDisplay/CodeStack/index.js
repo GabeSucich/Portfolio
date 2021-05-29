@@ -14,7 +14,7 @@ export default function CodeStack({...props}) {
 
     return (
         <Grid.Column computer = {8} tablet = {8} mobile = {8} verticalAlign = "middle">
-            <Image fluid src = {process.env.PUBLIC_URL + projectInfo[projectState.selectedIndex].codeStackSRC} />
+            <Image className="stack-image" fluid src = {process.env.PUBLIC_URL + projectInfo[projectState.selectedIndex].codeStackSRC} />
         </Grid.Column>
     )
 }

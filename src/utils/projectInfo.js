@@ -34,7 +34,7 @@ module.exports = [
         objName: "financhill",
         thumbnailSRC: "/images/thumbnails/financhill.png",
         codebaseLink: "https://github.com/GabeSucich/BudgetingApp",
-        deployedLink: "https://dashboard.heroku.com/apps/financhill-gs",
+        deployedLink: "https://financhill-gs.herokuapp.com/login",
         imageInfo: [
             {liveSRC: "/images/expanded/financhill/1.gif", staticSRC: "/images/expanded/financhill/1.png"},
             {liveSRC: "/images/expanded/financhill/2.gif", staticSRC: "/images/expanded/financhill/2.png"},

@@ -29,6 +29,10 @@ export default function Navigation({ ...props }) {
         window.open(process.env.PUBLIC_URL + "/Resume.pdf")
     }
 
+    const openTranscript = () => {
+        window.open(process.env.PUBLIC_URL + "/Transcript.pdf")
+    }
+
     return (
         <div className="no-margin no-padding">
             <Segment inverted>
@@ -49,6 +53,10 @@ export default function Navigation({ ...props }) {
                         onClick = {openResume}
                         name="Resume"
                         
+                    />
+                    <Menu.Item
+                        name = "Transcript"
+                        onClick = {openTranscript}
                     />
                     <Menu.Menu position="right">
                         <Menu.Item className="icon-menu-item" onClick = {openGithub}>
